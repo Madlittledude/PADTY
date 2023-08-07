@@ -24,8 +24,8 @@ def display_intro():
     st.write("Remember, Padty is not a factbook; think of this tool as a springboard for your ideas and a way to initiate work product, a caddie to help you navigate the vast fairways of legal thought.")
     st.write(":heart: Max")
 
-colin = "https://raw.githubusercontent.com/Madlittledude/Padty_the_Caddie/main/PADTY/daniel.png"
-padty = "https://raw.githubusercontent.com/Madlittledude/Padty_the_Caddie/main/PADTY/madlittledudette_flipped.png"
+colin = "https://raw.githubusercontent.com/Madlittledude/Padty_the_Baddie/main/daniel.png"
+padty = "https://raw.githubusercontent.com/Madlittledude/Padty_the_Baddie/main/madlittledudette_flipped.png"
 def display_chat_interface():
 
     for message in st.session_state.messages:
