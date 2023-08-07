@@ -6,15 +6,11 @@ st.set_page_config(page_title="PADTY", page_icon="PADTY/5_leaf_clover.png", layo
 
 # Function to display chat messages
 def display_chat_message(role, content,avatar):
-    # if role == 'assistant':
-    #     avatar = padty
-    # elif role == 'user':
-    #     avatar = colin
     with st.chat_message(role, avatar=avatar):
         st.markdown(content)
 
 def display_intro():
-    st.title("Welcome, Colin, to Your Session with Padty the Caddie :golfer:")
+    st.title("Welcome, Daniel, to Your Session with Padty the Baddie :woman-tipping-hand:")
     st.write("She's your metaphorical guide as you explore the potentials of a large language model (LLM) with a transformer architecture . Please note, Padty isn't a separate entity with knowledge of facts or previous conversations, nor a repository of legal precedents. Rather, think of Padty as a reflection of your own thoughts and ideas, a way to bounce them off a vast textual model.")
     st.write("Here's how Padty can assist you:")
     st.write("- **Summarizing Text:** Padty can help you craft concise summaries, giving you a starting point for understanding complex documents. Simply copy and paste the text into the chatbox.")
@@ -24,14 +20,14 @@ def display_intro():
     st.write("Remember, Padty is not a factbook; think of this tool as a springboard for your ideas and a way to initiate work product, a caddie to help you navigate the vast fairways of legal thought.")
     st.write(":heart: Max")
 
-colin = "https://raw.githubusercontent.com/Madlittledude/Padty_the_Baddie/main/daniel.png"
+daniel = "https://raw.githubusercontent.com/Madlittledude/Padty_the_Baddie/main/daniel.png"
 padty = "https://raw.githubusercontent.com/Madlittledude/Padty_the_Baddie/main/madlittledudette_flipped.png"
 def display_chat_interface():
 
     for message in st.session_state.messages:
         if message["role"] == "system":
             continue
-        avatar = padty if message["role"] == "assistant" else colin
+        avatar = padty if message["role"] == "assistant" else daniel
         display_chat_message(message["role"], message["content"],avatar)
 
     # User input
@@ -40,7 +36,7 @@ def display_chat_interface():
         # Set the state to indicate the user has sent their first message
         st.session_state.first_message_sent = True
         st.session_state.messages.append({"role": "user", "content": prompt})
-        display_chat_message("user", prompt,colin)
+        display_chat_message("user", prompt,daniel)
 
         with st.chat_message("assistant",avatar=padty):
             message_placeholder = st.empty()
