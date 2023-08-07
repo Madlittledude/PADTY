@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 import os
 # Set up the page layout
-st.set_page_config(page_title="PADTY", page_icon="PADTY/5_leaf_clover.png", layout='wide')
+st.set_page_config(page_title="PADTY", page_icon="5_leaf_clover.png", layout='wide')
 
 # Function to display chat messages
 def display_chat_message(role, content,avatar):
