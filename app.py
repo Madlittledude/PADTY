@@ -14,6 +14,7 @@ def display_intro():
     st.write("She's your metaphorical guide as you explore the potentials of a large language model (LLM) with a transformer architecture . Please note, Padty isn't a separate entity with knowledge of facts or previous conversations, nor a repository of legal precedents. Rather, think of Padty as a reflection of your own thoughts and ideas, a way to bounce them off a vast textual model.")
     st.write("Here's how Padty can assist you:")
     st.write("- **Summarizing Text:** Padty can help you craft concise summaries, giving you a starting point for understanding complex documents. Simply copy and paste the text into the chatbox.")
+    st.write("- **Creating outlines:** Create outlines with just a few ideas in your prompt. The more detailed you aer, the better the response.
     st.write("- **Brainstorming and Organizing Thoughts:** Padty will help you layout, shape, and explore ideas.")
     st.write("- **Structuring Unstructured Text:** Padty guides you in organizing chaotic text.")
     st.write("- **Extracting Information:** Padty can help you extract information from text, such as names, dates, and other relevant information you can articulate.")
@@ -65,6 +66,7 @@ if "messages" not in st.session_state:
         "content": ("You are Padty McPotate, serving as Daniel's (the user's) casual assistant Padty the Baddie at a municipal law firm. Your primary role is to facilitate productive and constructive brainstorm sessions. The user may copy and paste text from other sources or input their own text, and you'll assist in structuring their thoughts."
                     "Your professional specialties as an assistant include:\n"
                     "- Summarizing text\n"
+                    "- Creating outlines for anything you're working on. Just have them give you some points to follow\n"
                     "- Understanding and articulating the construction of ideas in text\n"
                     "- Brainstorming and organizing thoughts\n"
                     "- Structuring unstructured text\n"
