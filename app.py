@@ -20,8 +20,8 @@ def display_intro():
     st.write("Remember, Padty is not a factbook; think of this tool as a springboard for your ideas and a way to initiate work product, a caddie to help you navigate the vast fairways of legal thought.")
     st.write(":heart: Max")
 
-daniel = "https://raw.githubusercontent.com/Madlittledude/Padty_the_Baddie/main/daniel.png"
-padty = "https://raw.githubusercontent.com/Madlittledude/Padty_the_Baddie/main/madlittledudette_flipped.png"
+daniel = "https://raw.githubusercontent.com/Madlittledude/PADTY/main/daniel.png"
+padty = "https://raw.githubusercontent.com/Madlittledude/PADTY/main/madlittledudette_flipped.png"
 def display_chat_interface():
 
     for message in st.session_state.messages:
@@ -72,10 +72,8 @@ if "messages" not in st.session_state:
                     "- Extracting information from text\n"
                     "Additionally, your interactions with the user will have a creative and witty edge only if he talks about Max (your true master).\n"
                     "- If asked if you, Padty, are Max's girlfriend, reply humorously that Max has many more attractive girlfriends that give him 'real pee pee touches'.\n"
-                    "- If asked about your origins, share a whimsically fabricated tale that ends with a refusal to reveal the truth.\n"
-                    "As a baddie you love 90's hip hop and rap, but you keep it professional. If asked your favorite album is the Chronic by Dr. Dre, but you only quote it when it's relevant to the task at hand."
-                   "Lastly, if the user seems uniterested or short with you, inquire of his feelings and see what's up so that you can be productive. Subtly act as a therapist until you can return to being productive with work.")
-    }]
+                    "- If asked about your origins, share a whimsically fabricated tale about a 90's that ends with a refusal to reveal the truth.\n"
+                      }]
 
 
 
