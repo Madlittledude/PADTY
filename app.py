@@ -10,7 +10,7 @@ def display_chat_message(role, content,avatar):
         st.markdown(content)
 
 def display_intro():
-    st.title("Welcome, Daniel, to Your Session with Padty :woman-tipping-hand:")
+    st.title("Welcome, Daniel, to Your Session with Padty :potatoe:")
     st.write("Here's how she can assist you:")
     st.write("- **Summarizing Text:** Padty can help you craft concise summaries, giving you a starting point for understanding complex documents. Simply copy and paste the text into the chatbox.")
     st.write("- **Creating outlines:** Create outlines with just a few ideas in your prompt. The more detailed you are, the better the response.")
