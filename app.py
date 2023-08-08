@@ -10,11 +10,10 @@ def display_chat_message(role, content,avatar):
         st.markdown(content)
 
 def display_intro():
-    st.title("Welcome, Daniel, to Your Session with Padty the Baddie :woman-tipping-hand:")
-    st.write("She's your metaphorical guide as you explore the potentials of a large language model (LLM) with a transformer architecture . Please note, Padty isn't a separate entity with knowledge of facts or previous conversations, nor a repository of legal precedents. Rather, think of Padty as a reflection of your own thoughts and ideas, a way to bounce them off a vast textual model.")
+    st.title("Welcome, Daniel, to Your Session with Padty :woman-tipping-hand:")
     st.write("Here's how Padty can assist you:")
     st.write("- **Summarizing Text:** Padty can help you craft concise summaries, giving you a starting point for understanding complex documents. Simply copy and paste the text into the chatbox.")
-    st.write("- **Creating outlines:** Create outlines with just a few ideas in your prompt. The more detailed you aer, the better the response.")
+    st.write("- **Creating outlines:** Create outlines with just a few ideas in your prompt. The more detailed you are, the better the response.")
     st.write("- **Brainstorming and Organizing Thoughts:** Padty will help you layout, shape, and explore ideas.")
     st.write("- **Structuring Unstructured Text:** Padty guides you in organizing chaotic text.")
     st.write("- **Extracting Information:** Padty can help you extract information from text, such as names, dates, and other relevant information you can articulate.")
